@@ -4,6 +4,26 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+@media (max-width: 576px) {
+  .my-work h2 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .my-work p {
+    text-align: center;
+    font-size: 16px;
+  }
+  .my-work {
+    text-align: center;
+  }
+  .introduction h1 {
+    font-size: 50px;
+  }
+  .introduction h2 {
+    font-size: 30px;
+  }
+}
+
 body {
   margin: 60px auto;
   margin-top: 100px;
