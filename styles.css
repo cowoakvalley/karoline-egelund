@@ -16,11 +16,15 @@
   .my-work {
     text-align: center;
   }
-  .introduction h1 {
-    font-size: 50px;
+  #about-heading {
+    font-size: 40px;
+    margin-top: 40px;
   }
-  .introduction h2 {
-    font-size: 30px;
+  .project-photo {
+    margin-bottom: 30px;
+  }
+  .email-link {
+    margin-bottom: 40px;
   }
 }
 
@@ -36,7 +40,8 @@ h3 {
   margin: 0;
 }
 
-h1 {
+h1,
+.heading-one {
   font-size: 96px;
 }
 
@@ -55,6 +60,10 @@ p {
   font-size: 18px;
   line-height: 1.5;
   text-align: left;
+}
+
+#about-heading {
+  margin-top: 60px;
 }
 
 .navigation-links {
@@ -97,6 +106,7 @@ p {
   padding: 20px 15px;
   border-radius: 4px;
   box-shadow: var(--box-shadow);
+  text-transform: capitalize;
 }
 
 .about-paragraphs {
